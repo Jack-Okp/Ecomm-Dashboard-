@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containers">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="customers.html">Customers</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <h1>Settings</h1>
+
+            <div class="settings-section">
+                <h2>General</h2>
+                <label for="store-name">Store Name:</label>
+                <input type="text" id="store-name">
+                <label for="store-logo">Store Logo:</label>
+                <input type="file" id="store-logo">
+            </div>
+
+            <div class="settings-section">
+                <h2>Payment Methods</h2>
+                <input type="checkbox" id="credit-card" name="payment-method" value="credit-card">
+                <label for="credit-card">Credit Card</label>
+                <input type="checkbox" id="paypal" name="payment-method" value="paypal">
+                <label for="paypal">PayPal</label>
+                <input type="checkbox" id="bank-transfer" name="payment-method" value="bank-transfer">
+                <label for="bank-transfer">Bank Transfer</label>
+            </div>
+
+            <div class="settings-section">
+                <h2>Shipping Options</h2>
+                <label for="shipping-provider">Shipping Provider:</label>
+                <input type="text" id="shipping-provider">
+                <label for="shipping-rates">Shipping Rates:</label>
+                <input type="text" id="shipping-rates">
+            </div>
+
+            <div class="settings-section">
+                <h2>Tax Settings</h2>
+                <label for="tax-rate">Tax Rate:</label>
+                <input type="text" id="tax-rate">
+                <label for="tax-id">Tax ID:</label>
+                <input type="text" id="tax-id">
+            </div>
+
+            <div class="settings-section">
+                <h2>Notifications</h2>
+                <input type="checkbox" id="order-confirmation" name="notification" value="order-confirmation">
+                <label for="order-confirmation">Order Confirmation</label>
+                <input type="checkbox" id="shipping-updates" name="notification" value="shipping-updates">
+                <label for="shipping-updates">Shipping Updates</label>
+            </div>
+
+            <div class="settings-buttons">
+                <button>Save Changes</button>
+                <button>Revert to Default</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

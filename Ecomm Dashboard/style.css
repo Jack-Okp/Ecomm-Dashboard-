@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #fff;
+    border-right: 1px solid #e0e6ed;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #4c5e79;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #e9edf2;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.dashboard-summary {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.summary-card {
+    background-color: #fff;
+    border: 1px solid #e0e6ed;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.sales-trends {
+    background-color: #fff;
+    border: 1px solid #e0e6ed;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.recent-orders {
+    background-color: #fff;
+    border: 1px solid #e0e6ed;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.recent-orders table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recent-orders th, .recent-orders td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #e0e6ed;
+}
+
+.product-performance {
+    background-color: #fff;
+    border: 1px solid #e0e6ed;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.product-bar {
+    background-color: #f4f7fa;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.products-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.products-header button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.products-header input[type="text"] {
+    padding: 10px;
+    border: 1px solid #e0e6ed;
+    border-radius: 5px;
+}
+
+.products-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.products-table th, .products-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #e0e6ed;
+}
+
+.products-table img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.customers-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.customers-header input[type="text"], .customers-header select {
+    padding: 10px;
+    border: 1px solid #e0e6ed;
+    border-radius: 5px;
+}
+
+.customers-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.customers-table th, .customers-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #e0e6ed;
+}
+
+.settings-section {
+    background-color: #fff;
+    border: 1px solid #e0e6ed;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.settings-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.settings-section input[type="text"], .settings-section input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0e6ed;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.settings-section input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.settings-buttons {
+    text-align: right;
+}
+
+.settings-buttons button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
